@@ -1,0 +1,79 @@
+.portrait {
+    width: 300px;
+    height: 400px;
+    background: url('../assets/images/anna.jpg') no-repeat;
+    background-size: contain;
+    min-width: 300px;
+    flex: none;
+}
+.demo-toolbar {
+  
+}
+
+.demo-toolbar-icon {
+    padding: 0 14px;
+  }
+
+  .demo-fill-remaining {
+    flex: 1 1 auto;
+  }
+
+  button {
+    margin: 0 4px;
+  }
+
+.main-toolbar {
+    box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12)
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #009cdf;
+}
+
+.mat-toolbar.mat-primary {
+    background-color: #6f6f6f;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    align-items: center;
+    margin: auto 10%;
+    color: #fff;
+}
+
+.main-text h2 {
+    font-size: 17px;
+}
+
+.main-text p {
+    text-align: justify;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    margin: 24px 10%;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.cell-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: flex-start;
+}
+.cell-item a {
+    margin-left: 16px;
+    color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+    .portrait {
+        display: none;
+    }
+} 
